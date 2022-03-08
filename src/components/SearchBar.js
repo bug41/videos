@@ -15,7 +15,8 @@ class SearchBar extends React.Component{
 
         //TODO : Make sure we call
         //callback from parent component
-        
+
+        this.props.onFormSubmit(this.state.term);
 
     }
 
